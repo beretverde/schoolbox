@@ -6,7 +6,7 @@ public class DProb
 
         double fact=1.0;
         for (int i=1;i<=N;i++){
-            fact *=i;
+            fact *=(double)i;
         }
         return fact;
     }
@@ -29,8 +29,11 @@ public class DProb
         if(X==0|X==N){
             return 1.0;
         }
-
-        comb=Permutations(N,X)/ Factorial(X);
+        if(N-X<X){
+            comb=Permutations(N,N-X)/ Factorial(N-X);
+        }else {
+            comb = Permutations(N, X) / Factorial(X);
+        }
 
         return comb;
     }
