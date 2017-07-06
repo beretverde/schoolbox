@@ -39,6 +39,7 @@ public class DProb
     {
         double probX = 0.0;
 
+        probX=(Combinations(Xp,X)*Combinations(Np-Xp,N-X))/Combinations(Np,N);
 
         return probX;
     }
@@ -47,6 +48,7 @@ public class DProb
     {
         double probX = 0.0;
 
+        probX=Combinations(N,X)*Math.pow(P,X)*Math.pow(1-P,N-X);
 
         return probX;
     }
@@ -55,6 +57,7 @@ public class DProb
     {
         double probX = 0.0;
 
+        probX=Math.pow(Math.E,-Xmean)*(Math.pow(Xmean,X)/Factorial(4));
 
         return probX;
     }
