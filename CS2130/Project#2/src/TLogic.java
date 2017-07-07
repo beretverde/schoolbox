@@ -3,34 +3,52 @@
  */
 public class TLogic {
 
-    char A;
-    char B;
-    char C;
-
-    public TLogic(char a, char b, char c){
-        A=a;
-        B=b;
-        C=c;
-
-    }
+ public static enum Value{
+     F,T,U;
 
 
-    public TLogic TAND(TLogic input){
-        if(this == 'T'){
-            return input;
-        }else if(this == 'U'){
-            return (input == 'F') ? 'F' : 'U';
-        }else{
-            return 'F';
-        }
-    }
+     public Value TAND(Value v1, Value v2){
+
+
+         if(v1==F || v2==F || this==F) {
+             return F;
+         }else if(v1==U || v2==U || this==U){
+             return U;
+         }else{
+             return T;
+         }
+
+     }
+
+     public Value TOR(Value v1, Value v2){
+
+         if(v1==T||v2==T||this==T){
+             return T;
+
+         }else if(v1==U||v2==U||this==U){
+             return U;
+         }else{
+             return F;
+         }
+
+
+     }
+
+     public Value TNOT(Value v1,Value V2){
+
+         if(v1)
+
+     }
+
+
+
+ }
 
 
 
 
-    public static void main(String[] args){
 
-    }
+
 
 
 
