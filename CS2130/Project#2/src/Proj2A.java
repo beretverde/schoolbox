@@ -7,14 +7,28 @@ public class Proj2A
     public static void main(String args[])
     {
 
-for(long x=10000000;x<=1000000000;x++){
+//for(long x=10000000;x<=1000000000;x++){
+//
+//    if(KNumber(x)) {
+//        System.out.print("x: " + x + " = " + KNumber(x) + "\n");
+//    }
+//}
 
-    if(KNumber(x)) {
-        System.out.print("x: " + x + " = " + KNumber(x) + "\n");
-    }
-}
-
-
+        if(args.length >= 1){
+            x = Integer.parseInt(args[0]);
+            System.out.println("\n Input value       x = " + x);
+            if (x >= 1){
+                // Sum-of squares algorithm
+                y1 = f1(x);
+                System.out.println(" Sum-of-squares   y1 = " + y1);
+                // Divide-last algorithm
+                y2 = f2(x);
+                System.out.println(" Divide-last      y2 = " + y2);
+                // Divide-early algorithm
+                y3 = f3(x);
+                System.out.println(" Divide-early     y3 = " + y3);
+            }
+        }
     }
 
     private static char LProp(char p, char q, char r)
