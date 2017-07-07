@@ -62,7 +62,7 @@ public class Binomial {
     double probX(double P, long N){
         double probX = 0.0;
 
-        probX=Combinations(N,X)*Math.pow(P,X)*Math.pow(1-P,N-X);
+//        probX=Combinations(N,X)*Math.pow(P,X)*Math.pow(1-P,N-X);
 
         return probX;
     }
