@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 // Boolean Matrix Class
 public class BMat
 {
@@ -190,22 +193,36 @@ public class BMat
 
     public BMat product(BMat M2)
     {
-        BMat temp = new BMat(SIZE);
+       BMat result = new BMat(SIZE);
+
 
         for(int r = 0; r < SIZE; r++){
+
             for(int c = 0; c < SIZE; c++){
-                temp.M[r][c] = (this.M[r][c]&M2.M[c][r]);
+                List<Integer> list = new ArrayList<>();
 
-            }
-            for(int c = 0; c < SIZE; c++){
-                temp.M[r][c] = temp.M[r][c]&temp.M[r][c];
+                for(int n=0;n<SIZE;n++) {
 
+                    list.add(this.M[r][n] & M2.M[n][c]);
 
+                }
+                result.M[r][c]=orMinTerms(list);
             }
         }
 
+        return result;
+    }
 
-        return M2;
+    public int orMinTerms(List<Integer> list){
+
+        int result=list.get(0);
+
+        for(int x=list.size();x>0;x--){
+
+            result=result | list.get(x-1);
+
+        }
+       return result;
     }
 
 //    public BMat tclosure()
