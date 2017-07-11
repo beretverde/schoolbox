@@ -9,71 +9,6 @@ public class main {
 
     public static void main( String[] args ) {
 
-
-        System.out.println("1a.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.Permutations(33,4)= "+DProb.Permutations(33,4));
-
-        System.out.println("1b.) How many ways can the 4 employees be drawn if the order in which they are drawn does not matter (i.e. all prizes have the same value)?");
-
-        System.out.println("DProb.Combinations(33,4)= "+DProb.Combinations(33,4));
-
-        System.out.println("2a.) Suppose 8 Lab-A PC's are randomly drawn. What is the probability that none of the PC's in the sample is infected?");
-
-        System.out.println("DProb.HyperGeometric(50,8,41,8)= "+DProb.HyperGeometric(50,8,41,8));
-
-        System.out.println("2b.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.HyperGeometric(30,8,30-4,8)= "+DProb.HyperGeometric(30,8,30-4,8));
-
-        System.out.println("2c.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.HyperGeometric(50,8,41,8)*DProb.HyperGeometric(30,8,30-4,8))= "+DProb.HyperGeometric(50,8,41,8)*DProb.HyperGeometric(30,8,30-4,8) );
-
-        System.out.println("2d.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.HyperGeometric(80,8,80-4-9,8)= "+DProb.HyperGeometric(80,8,80-4-9,8));
-
-        System.out.println("3a.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.HyperGeometric(50,8,41,8)= "+DProb.HyperGeometric(50,8,41,8));
-
-        System.out.println("3a.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.HyperGeometric(50,8,41,8)= "+DProb.HyperGeometric(50,8,41,8));
-
-        System.out.println("3a.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.HyperGeometric(71,5,10,3)= "+DProb.HyperGeometric(71,5,10,3));
-
-        System.out.println("3b.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.HyperGeometric(71,5,10,0)+DProb.HyperGeometric(71,5,10,1)= "+(DProb.HyperGeometric(71,5,10,0)+DProb.HyperGeometric(71,5,10,1)));
-
-        System.out.println("4a.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.Binomial(.069,30,3)= "+DProb.Binomial(.069,30,3));
-
-        System.out.println("4b.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.Binomial(.069,30,2)+DProb.Binomial(.069,30,1)+DProb.Binomial(.069,30,0)= "+(DProb.Binomial(.069,30,2)+DProb.Binomial(.069,30,1)+DProb.Binomial(.069,30,0)));
-
-        System.out.println("5a.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.Binomial(.026,125,4)= "+DProb.Binomial(.026,125,4));
-
-        System.out.println("DProb.Poisson(125*.026,4)= "+DProb.Poisson(125*.026,4));
-
-        System.out.println("5b.) How many ways can the 4 employees be drawn if the order in which they are drawn matters (i.e. the prizes have different values)?");
-
-        System.out.println("DProb.Binomial(.026,125,3)+DProb.Binomial(.026,125,2)+DProb.Binomial(.026,125,1)+DProb.Binomial(.026,125,0)= "+(DProb.Binomial(.026,125,3)+DProb.Binomial(.026,125,2)+DProb.Binomial(.026,125,1)+DProb.Binomial(.026,125,0)));
-
-        System.out.println("DProb.Poisson(125*.026,3)+DProb.Poisson(125*.026,2)+DProb.Poisson(125*.026,1)+DProb.Poisson(125*.026,0)="+(DProb.Poisson(125*.026,3)+DProb.Poisson(125*.026,2)+DProb.Poisson(125*.026,1)+DProb.Poisson(125*.026,0)));
-
-
-        //Part C
-
-
 //Question1
         Binomial b1 = new Binomial(.36,22);
 
@@ -116,7 +51,7 @@ public class main {
         }
         System.out.println("Average using [= (X1 + X2 + ... + X100)/100]= "+total/rand.size());
 
-        System.out.println(rand.get(0).mean());
+        System.out.println("Mean using N*P "+rand.get(0).mean());
 
         System.out.println();
 
