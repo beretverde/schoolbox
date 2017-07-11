@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -73,15 +75,15 @@ public class main {
 
 
 //Question1
-//        Binomial b1 = new Binomial(.36,22);
-//
-//
-//        System.out.println("P: "+b1.P);
-//        System.out.println("N: "+b1.N);
-//        System.out.println("X: "+b1.X);
-//
-//        System.out.println("Mean: "+b1.mean());
-//        System.out.println("Variance: "+b1.variance());
+        Binomial b1 = new Binomial(.36,22);
+
+
+        System.out.println("P: "+b1.P);
+        System.out.println("N: "+b1.N);
+        System.out.println("X: "+b1.X);
+
+        System.out.println("Mean: "+b1.mean());
+        System.out.println("Variance: "+b1.variance());
 
 //Question2
         Binomial b2  = new Binomial(.73, 6,0);
@@ -103,16 +105,18 @@ public class main {
         Binomial b8  = new Binomial(.73, 6,6);
         System.out.println(b8.X+"       "+b8.probX());
 
-//        Binomial b9= new Binomial(.73,6,1);
 
-        long[] randomNums= new long[100];
+        List<Binomial> rand = new ArrayList<>();
 
         double total=0;
         for(int x=0;x<100;x++){
-                randomNums[x]=b8.randomX();
-                total+=randomNums[x];
+            Binomial binomial= new Binomial(.32,12);
+            rand.add(binomial);
+            total+=binomial.getX();
         }
-        System.out.println("Average using [= (X1 + X2 + ... + X100)/100]= "+total/randomNums.length);
+        System.out.println("Average using [= (X1 + X2 + ... + X100)/100]= "+total/rand.size());
+
+        System.out.println(rand.get(0).mean());
 
         System.out.println();
 

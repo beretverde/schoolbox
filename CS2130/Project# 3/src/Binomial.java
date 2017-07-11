@@ -15,6 +15,13 @@ public class Binomial {
         X= x;
     }
 
+    public Binomial(double p, long n){
+        P = p;
+        N = n;
+        randomX();
+    }
+
+
     public double getP() {
         return P;
     }
@@ -39,16 +46,16 @@ public class Binomial {
         X = x;
     }
 
-    long randomX(){
+    void randomX(){
         Random gen = new Random();
 
-        //Limiting the range of my random numbers 1-100 so its easier to work with.
-        int max=100;
+        //Limiting the range of my random numbers 1-10 so its easier to work with.
+        int max=10;
         int min=1;
 
         long randomNum =(long)gen.nextInt((max - min) + 1) + min;
 
-        return randomNum;
+        this.X=randomNum;
     }
 
     double mean(){
