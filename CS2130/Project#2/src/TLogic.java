@@ -36,21 +36,10 @@ public class TLogic {
 
      public Value TNOT(Value v1,Value V2){
 
-         if(v1)
+         //not sure about the truth table on this one
 
      }
 
-
-
  }
-
-
-
-
-
-
-
-
-
 
 }

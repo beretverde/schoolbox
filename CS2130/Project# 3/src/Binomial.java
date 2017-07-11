@@ -9,10 +9,10 @@ public class Binomial {
     long N;
     long X;
 
-    public Binomial(double p, long n, long x) {
+    public Binomial(double p, long n, long x ){
         P = p;
         N = n;
-        X = x;
+        X= x;
     }
 
     public double getP() {
@@ -42,27 +42,70 @@ public class Binomial {
     long randomX(){
         Random gen = new Random();
 
-        long randomLong = gen.nextLong();
+        //Limiting the range of my random numbers 1-100 so its easier to work with.
+        int max=100;
+        int min=1;
 
-        return randomLong;
+        long randomNum =(long)gen.nextInt((max - min) + 1) + min;
+
+        return randomNum;
     }
 
-    double mean(long N,double P){
+    double mean(){
 
-        return (double)N*P;
+        return (double)this.N*this.P;
 
     }
 
-    double variance(long N,double P){
+    double variance(){
 
 
-        return (double)N*P*(1-P);
+        return (double)this.N*this.P*(1-this.P);
     }
 
-    double probX(double P, long N){
+
+    public static double Factorial(long N){
+
+        double fact=1.0;
+        for (int i=1;i<=N;i++){
+            fact *=(double)i;
+        }
+        return fact;
+    }
+
+
+    public static double Permutations(long N, long X)
+    {
+        double perm = 1.0;
+
+        for (int x=0;x<X;x++){
+            perm = perm*(double)(N-x);
+        }
+        return perm;
+    }
+
+    public static double Combinations(long N, long X)
+    {
+        double comb = 0.0;
+
+        if(X==0|X==N){
+            return 1.0;
+        }
+        if(N-X<X){
+            comb=Permutations(N,N-X)/ Factorial(N-X);
+        }else {
+            comb = Permutations(N, X) / Factorial(X);
+        }
+
+        return comb;
+    }
+
+
+
+    double probX(){
         double probX = 0.0;
 
-//        probX=Combinations(N,X)*Math.pow(P,X)*Math.pow(1-P,N-X);
+        probX=Combinations(N,this.X)*Math.pow(this.P,this.X)*Math.pow(1-this.P,this.N-this.X);
 
         return probX;
     }

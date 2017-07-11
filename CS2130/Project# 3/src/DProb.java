@@ -60,7 +60,7 @@ public class DProb
     {
         double probX = 0.0;
 
-        probX=Math.pow(Math.E,-Xmean)*(Math.pow(Xmean,X)/Factorial(4));
+        probX=Math.pow(Math.E,-Xmean)*(Math.pow(Xmean,(double)X)/Factorial(X));
 
         return probX;
     }
