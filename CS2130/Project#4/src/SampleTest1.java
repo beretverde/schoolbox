@@ -7,36 +7,25 @@ public class SampleTest1
     {
 
         // Declare work objects
-        BMat W1, W2, W3,W4,W5;
+        BMat W1, W2, W3,W4,W5,W6;
         int[][] C = new int[][]
-                       {{0, 0, 0},
-                        {1, 1, 0},
-                        {1, 1, 0}};
-
-        int[][] D = new int[][]
                        {{1, 1, 0},
                         {0, 1, 0},
-                        {0, 1, 1}};
+                        {0, 0, 1}};
+
+        int[][] D = new int[][]
+                       {{1, 0, 0},
+                        {1, 1, 1},
+                        {0, 0, 1}};
 
 
-
-
-        int[][] E = new int[][]
-                {{1, 1},
-                        {0, 1},
-                        {0, 1}};
-
-        int[][] F = new int[][]
-                {{1, 1, 0},
-                        {0, 1, 1}};
 
 
         // Instance and display initial objects
         BMat MC = new BMat(C);
         BMat MD = new BMat(D);
 
-//        BMat ME = new BMat(E);
-        BMat MF = new BMat(F);
+
 
         System.out.println("\n Matrix C");
         MC.show();
@@ -44,13 +33,11 @@ public class SampleTest1
         System.out.println("\n Matrix D");
         MD.show();
 
-//        System.out.println("\n Matrix C");
-//        ME.show();
-
-        System.out.println("\n Matrix D");
-        MF.show();
 
 
+        W6=MC.product(MD);
+        System.out.println("\n Product of C and D");
+        W6.show();
 
         // Indegree of node 1 of D
         // Node numbers are 0, 1, 2
