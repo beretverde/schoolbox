@@ -253,5 +253,6 @@ public class BMat {
         return -1;
     }
 
+
 } // end class
 

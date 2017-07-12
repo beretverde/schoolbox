@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 // Project #4 test program
 public class P4Test
 {
@@ -63,7 +66,7 @@ public class P4Test
                         {0, 0, 0, 0, 0, 0, 0, 0, 0},
                         {0, 0, 0, 0, 0, 0, 0, 0, 0},
                         {0, 0, 0, 0, 0, 0, 0, 0, 0}};
-        BMat A1, A2, A3,A4,A5,B1,B2,B3,B4,B5;
+        BMat A1, A2, A3,A4,A5,B1,B2,B3,B4,B5,C1,D1,D2,D3,D4,D5,D6,F1,G1,H1;
 
 
 
@@ -79,9 +82,6 @@ public class P4Test
 
         //a.	W = (C' and (A or B)) and B'    (M' = complement of M)
 
-
-
-
         A1=BMC.complement();
         A2=BMA.join(BMB);
         A3=BMB.complement();
@@ -90,9 +90,81 @@ public class P4Test
         System.out.println("W = (C' and (A or B)) and B");
         A5.show();
 
-        //b. (B^T boolProduct B) and (C or C^T)
+        //b. (B.transpose boolProduct B) and (C or C.transpose)
 
-      
+        B1=BMB.transpose();
+        B2=BMC.transpose();
+        B3=B1.product(BMB);
+        B4=BMC.join(B2);
+        B5=B3.meet(B4);
+        System.out.println("(B.transpose boolProduct B) and (C or C.transpose)");
+        B5.show();
+
+        //c.  W = ʘC18 = C ʘ C ʘ ... ʘ C (18 C's)
+
+
+        C1=BMC.product(BMC);
+        System.out.println("Boolean Product Iteration# 1");
+        C1.show();
+
+        for(int x=1; x<=17;x++){
+                C1=BMC.product(C1);
+            System.out.println("Boolean Product Iteration# "+(x+1));
+            C1.show();
+        }
+
+        //d. W = (D or E).transpose and (D.transpose or E.transpose)
+
+        D1=BMD.join(BME);
+        D2=D1.transpose();
+        D3=BMD.transpose();
+        D4=BME.transpose();
+        D5=D3.join(D4);
+        D6=D2.meet(D5);
+        System.out.println("W = (D or E).transpose and (D.transpose or E.transpose)");
+        D6.show();
+
+        //e. W = ʘD1 or ʘD2 or ʘD3 or ʘD4
+
+        //f. X = maximum out-degree of all nodes in D
+
+        F1=BMD;
+
+        int counter =0;
+
+        List<Integer> nodes = new ArrayList<>();
+
+        for(int r=0;r<F1.SIZE;r++){
+            nodes.add(F1.outdegree(r));
+            if(F1.outdegree(r)>counter){
+                counter=F1.outdegree(r);
+            }
+        }
+        System.out.println("Maximum outdegree of D: "+counter);
+
+
+        //g. W = symmetric closure of D. Is D symmetric?
+
+        G1=BMD.sclosure();
+
+        System.out.println("Symetric Closure of D:");
+
+        G1.show();
+
+
+
+        //h. W= transitive closure of E. Is E transitive?
+
+        H1=BME.tclosure();
+
+        System.out.println("Transitive Closure of E:");
+
+        H1.show();
+
+        //i. Show that matrix F represents a tree (has a candidate root node and has no cycles).
+
+        //j. Show that matrix G does not represent a tree.
+
 
 
 
