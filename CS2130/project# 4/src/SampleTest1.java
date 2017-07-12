@@ -9,12 +9,12 @@ public class SampleTest1
         // Declare work objects
         BMat W1, W2, W3,W4,W5,W6;
         int[][] C = new int[][]
-                       {{1, 1, 0},
+                {{1, 1, 0},
                         {0, 1, 0},
                         {0, 0, 1}};
 
         int[][] D = new int[][]
-                       {{1, 0, 0},
+                {{1, 0, 0},
                         {1, 1, 1},
                         {0, 0, 1}};
 

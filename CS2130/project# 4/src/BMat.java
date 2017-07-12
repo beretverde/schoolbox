@@ -161,7 +161,7 @@ public class BMat
         // Nodes are numbered 0,1,2,...,SIZE-1
         int rowsum = 0;
         for(int r = 0; r < SIZE; r++)
-        rowsum = rowsum + M[K][r];
+            rowsum = rowsum + M[K][r];
         return rowsum;
 
     }
@@ -181,19 +181,19 @@ public class BMat
     public BMat transpose()
     {
         // Transpose of current matrix
-       BMat temp = new BMat(SIZE);
+        BMat temp = new BMat(SIZE);
 
         for(int r = 0; r < SIZE; r++){
             for(int c = 0; c < SIZE; c++){
                 temp.M[r][c] = this.M[c][r];
             }
         }
-       return temp;
+        return temp;
     }
 
     public BMat product(BMat M2)
     {
-       BMat result = new BMat(SIZE);
+        BMat result = new BMat(SIZE);
 
 
         for(int r = 0; r < SIZE; r++){
@@ -222,7 +222,7 @@ public class BMat
             result=result | list.get(x-1);
 
         }
-       return result;
+        return result;
     }
 
 //    public BMat tclosure()
