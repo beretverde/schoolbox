@@ -7,11 +7,11 @@ public class SampleTest1
     {
 
         // Declare work objects
-        BMat W1, W2, W3,W4,W5,W6,W7;
+        BMat W1, W2, W3,W4,W5,W6,W7,W8;
         int[][] C = new int[][]
                 {{0, 0, 0},
-                        {0, 1, 1},
-                        {0, 1, 1}};
+                        {1, 0, 1},
+                        {0, 0, 0}};
 
         int[][] D = new int[][]
                 {{1, 0, 0},
@@ -24,7 +24,6 @@ public class SampleTest1
         // Instance and display initial objects
         BMat MC = new BMat(C);
         BMat MD = new BMat(D);
-
 
 
         System.out.println("\n Matrix C");
@@ -68,8 +67,6 @@ public class SampleTest1
         System.out.println("\n Meet of C and D");
         W4.show();
 
-
-
         // Reflexive Closure of C
         W3 = MC.rclosure();
         System.out.println("\n Reflexive Closure of C");
@@ -79,6 +76,11 @@ public class SampleTest1
         W7 = MC.tclosure();
         System.out.println("\n Transitive Closure of C");
         W7.show();
+
+        // Root Node of C
+        W8 = MC.tclosure();
+        System.out.println("\n Root Node of C"+W8.rootnode());
+        W8.show();
     }
 
 } // end class
