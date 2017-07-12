@@ -7,11 +7,11 @@ public class SampleTest1
     {
 
         // Declare work objects
-        BMat W1, W2, W3,W4,W5,W6;
+        BMat W1, W2, W3,W4,W5,W6,W7;
         int[][] C = new int[][]
-                {{1, 1, 0},
-                        {0, 1, 0},
-                        {0, 0, 1}};
+                {{0, 0, 0},
+                        {0, 1, 1},
+                        {0, 1, 1}};
 
         int[][] D = new int[][]
                 {{1, 0, 0},
@@ -74,6 +74,11 @@ public class SampleTest1
         W3 = MC.rclosure();
         System.out.println("\n Reflexive Closure of C");
         W3.show();
+
+        // Transitive Closure of C
+        W7 = MC.tclosure();
+        System.out.println("\n Transitive Closure of C");
+        W7.show();
     }
 
 } // end class

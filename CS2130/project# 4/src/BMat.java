@@ -221,7 +221,7 @@ public class BMat
 
             result=result | list.get(x-1);
 
-        }
+    }
         return result;
     }
 
@@ -231,7 +231,25 @@ public class BMat
 //        // Put code here...
 //
 //    }
-//
+
+    public BMat tclosure()
+    {
+
+        for (int i = 0; i < SIZE; i++)
+        {
+            for (int j = 0; j < SIZE; j++)
+            {
+                if (this.M[j][i]==1)
+                    for (int k = 0; k < SIZE; k++)
+                        if (this.M[j][i]==1 & this.M[i][k]==1) {
+                            this.M[j][k] = 1;
+                        }
+            }
+        }
+        return  this;
+    }
+
+
 //    public int rootnode()
 //    {
 //        // Root node number (if any) of current matrix
