@@ -46,7 +46,7 @@ public class P4Test
                         {0, 0, 0, 0, 0, 0}};
 
         int F[][] = new int[][]
-                {{0, 0, 0, 0, 1, 0, 1, 0, 0},
+                       {{0, 0, 0, 0, 1, 0, 1, 0, 0},
                         {1, 0, 0, 1, 0, 0, 0, 0, 0},
                         {0, 0, 0, 0, 0, 0, 0, 0, 0},
                         {0, 0, 1, 0, 0, 0, 0, 1, 1},
@@ -66,7 +66,7 @@ public class P4Test
                         {0, 0, 0, 0, 0, 0, 0, 0, 0},
                         {0, 0, 0, 0, 0, 0, 0, 0, 0},
                         {0, 0, 0, 0, 0, 0, 0, 0, 0}};
-        BMat A1, A2, A3,A4,A5,B1,B2,B3,B4,B5,C1,D1,D2,D3,D4,D5,D6,F1,G1,H1;
+        BMat A1, A2, A3,A4,A5,B1,B2,B3,B4,B5,C1,D1,D2,D3,D4,D5,D6,F1,G1,G2,H1,H2,I1;
 
 
 
@@ -144,24 +144,40 @@ public class P4Test
 
 
         //g. W = symmetric closure of D. Is D symmetric?
-
+        System.out.println("D before changes");
+        BMD.show();
         G1=BMD.sclosure();
-
         System.out.println("Symetric Closure of D:");
-
         G1.show();
 
+        G2 = G1.transpose();
+        System.out.println("Transpose of G1:");
+        G2.show();
+
+        System.out.println("Is D and the Symmetric Closure of D equal: "+G1.isEqual(G2));
 
 
-        //h. W= transitive closure of E. Is E transitive?
+        //h. W= transitive closure of E. Is E transitive? Mr isequal((Mr product Mr) or Mr)
 
-        H1=BME.tclosure();
+        H1=BME.product(BME);
+        H2=H1.join(BME);
+        System.out.println("E is transitive: "+BME.isEqual(H2));
 
-        System.out.println("Transitive Closure of E:");
-
-        H1.show();
 
         //i. Show that matrix F represents a tree (has a candidate root node and has no cycles).
+
+
+        I1= BMF;
+
+        System.out.println(I1.rootnode());
+
+        boolean is
+
+        for (int c=0;c<I1.SIZE;c++){
+            if(I1.outdegree(c)!=1||I1.outdegree(c)!=0){
+
+            }
+        }
 
         //j. Show that matrix G does not represent a tree.
 

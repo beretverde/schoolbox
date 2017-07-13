@@ -116,7 +116,7 @@ public class BMat {
         BMat W1 = new BMat(this.M);
         BMat W2 = new BMat(this.M);
         for (int k = 2; k <= N; k++) {
-//            W1 = W1.product(W2);
+            W1 = W1.product(W2);
         }
         return W1;
     }
@@ -133,8 +133,8 @@ public class BMat {
     public BMat sclosure() {
         // Symmetric closure of current matrix
         BMat W1 = new BMat(this.M);
-//        BMat W2 = W1.transpose();
-//        W1 = W1.join(W2);
+        BMat W2 = W1.transpose();
+        W1 = W1.join(W2);
         return W1;
     }
 
