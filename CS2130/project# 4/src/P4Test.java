@@ -176,8 +176,6 @@ public class P4Test
         System.out.println("Root node of J1: "+J1.rootnode());
 
 
-
-
     } // end main
 
 } // end class
