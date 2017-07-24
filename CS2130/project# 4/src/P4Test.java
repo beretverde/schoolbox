@@ -192,6 +192,8 @@ public class P4Test
         I1= BMF;
 
         System.out.println("Root node of I1: "+I1.rootnode());
+        System.out.println("Indegree node "+I1.rootnode()+" of I1: "+I1.indegree(I1.rootnode()));
+
 
 
         //j. Show that matrix G does not represent a tree.
@@ -199,6 +201,7 @@ public class P4Test
         J1=BMG;
 
         System.out.println("Root node of J1: "+J1.rootnode());
+        System.out.println("Indegree node "+J1.rootnode()+" of J1: "+J1.indegree(J1.rootnode()));
 
 
     } // end main
