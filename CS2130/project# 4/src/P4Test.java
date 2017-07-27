@@ -66,7 +66,7 @@ public class P4Test
                         {0, 0, 0, 0, 0, 0, 0, 0, 0},
                         {0, 0, 0, 0, 0, 0, 0, 0, 0},
                         {0, 0, 0, 0, 0, 0, 0, 0, 0}};
-        BMat A1, A2, A3,A4,A5,B1,B2,B3,B4,B5,C1,D1,D2,D3,D4,D5,D6,F1,G1,G2,H1,H2,I1,J1;
+        BMat A1, A2, A3,A4,A5,B1,B2,B3,B4,B5,C1,D1,D2,D3,D4,D5,D6,F1,E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11,E12,E13,E14,E15,E16,E17,E18,E19,G1,G2,H1,H2,I1,J1;
 
 
 
@@ -126,6 +126,31 @@ public class P4Test
 
         //e. W = ʘD1 or ʘD2 or ʘD3 or ʘD4
 
+        E1=BMD;
+
+        E2=BMD;
+        E3=BMD;
+        E4=E2.product(E3);
+
+        E5=BMD;
+        E6=BMD;
+        E7=E5.product(E6);
+        E8=BMD;
+        E9=E7.product(E8);
+        E10=BMD;
+        E11=BMD;
+        E12=E10.product(E11);
+        E13=BMD;
+        E14=E12.product(E13);
+        E15=BMD;
+        E16=E15.product(E14);
+        E17=E1.join(E4);
+        E18=E17.join(E9);
+        E19=E18.join(E16);
+        System.out.println("e. W = ʘD1 or ʘD2 or ʘD3 or ʘD4");
+        E19.show();
+
+
         //f. X = maximum out-degree of all nodes in D
 
         F1=BMD;
@@ -167,6 +192,8 @@ public class P4Test
         I1= BMF;
         I1.show();
         System.out.println("Root node of I1: "+I1.rootnode());
+        System.out.println("Indegree node "+I1.rootnode()+" of I1: "+I1.indegree(I1.rootnode()));
+
 
         System.out.println("S(arrows/edges) = v(nodes/vertices)-1 S=v-1="+I1.arrows()+"="+(I1.SIZE-1));
         I1.tclosure();
@@ -179,6 +206,7 @@ public class P4Test
         J1=BMG;
         J1.show();
         System.out.println("Root node of J1: "+J1.rootnode());
+        System.out.println("Indegree node "+J1.rootnode()+" of J1: "+J1.indegree(J1.rootnode()));
 
         System.out.println("S(arrows/edges) = v(nodes/vertices)-1 S=v-1="+J1.arrows()+"="+(J1.SIZE-1));
         J1.tclosure();
