@@ -165,15 +165,26 @@ public class P4Test
         //i. Show that matrix F represents a tree (has a candidate root node and has no cycles).
 
         I1= BMF;
-
+        I1.show();
         System.out.println("Root node of I1: "+I1.rootnode());
 
+        System.out.println("S(arrows/edges) = v(nodes/vertices)-1 S=v-1="+I1.arrows()+"="+(I1.SIZE-1));
+        I1.tclosure();
+        System.out.println("Trace after a tclosure: "+I1.trace());
+        I1.show();
 
         //j. Show that matrix G does not represent a tree.
 
+        System.out.println("J1");
         J1=BMG;
-
+        J1.show();
         System.out.println("Root node of J1: "+J1.rootnode());
+
+        System.out.println("S(arrows/edges) = v(nodes/vertices)-1 S=v-1="+J1.arrows()+"="+(J1.SIZE-1));
+        J1.tclosure();
+        System.out.println("Trace after a tclosure: "+J1.trace());
+
+        J1.show();
 
 
     } // end main
