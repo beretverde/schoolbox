@@ -118,10 +118,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-241" />
-    <option name="y" value="57" />
-    <option name="width" value="1878" />
-    <option name="height" value="2072" />
+    <option name="y" value="-4" />
+    <option name="width" value="1440" />
+    <option name="height" value="2564" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -163,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project#4" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -654,12 +653,12 @@
       <updated>1499741646429</updated>
       <workItem from="1499741649878" duration="654000" />
       <workItem from="1500925034286" duration="937000" />
-      <workItem from="1501004597454" duration="21169000" />
+      <workItem from="1501004597454" duration="22375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22760000" />
+    <option name="totallyTimeSpent" value="23966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1440" height="2564" extended-state="6" />

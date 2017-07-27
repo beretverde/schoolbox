@@ -227,27 +227,27 @@ public class BMat {
         // Root node number (if any) of current matrix
         // Nodes are numbered 0,1,2,...,SIZE-1
         // Put code here...
-       List<Integer> nodes= new ArrayList<>();
+        List<Integer> nodes = new ArrayList<>();
         for (int c = 0; c < SIZE; c++) {
             nodes.add(indegree(c));
         }
         return findZero(nodes);
     }
 
-    public int findZero(List<Integer> nodes){
+    public int findZero(List<Integer> nodes) {
 
-        int zeroCounter =0;
-        int oneCounter=0;
-        int location=0;
-        for(int x=0;x<nodes.size();x++){
-            if(nodes.get(x)==0){
-                location=x;
+        int zeroCounter = 0;
+        int oneCounter = 0;
+        int location = 0;
+        for (int x = 0; x < nodes.size(); x++) {
+            if (nodes.get(x) == 0) {
+                location = x;
                 zeroCounter++;
-            }else if(nodes.get(x)==1){
+            } else if (nodes.get(x) == 1) {
                 oneCounter++;
             }
         }
-        if(zeroCounter==1 && oneCounter==(SIZE-1)){
+        if (zeroCounter == 1 && oneCounter == (SIZE - 1)) {
             return location;
         }
         return -1;
