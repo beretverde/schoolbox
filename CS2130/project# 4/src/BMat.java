@@ -219,6 +219,8 @@ public class BMat {
                             this.M[j][k] = 1;
                         }
             }
+            System.out.println("iteration "+i);
+            this.show();
         }
         return this;
     }
