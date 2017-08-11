@@ -119,11 +119,11 @@ System.out.println("C^3");
         C2=BMC.power(3);
         C2.show();
 
-        long n = 5;
-        long x = 3;
+        long n = 10;
+        long x = 4;
         System.out.println(Permutations(n, x, n-x, n));
         System.out.println(Permutations1(n, x));
-        System.out.println(PermutationsT(5,3));
+        System.out.println(PermutationsT(n,x));
     }
 
 
@@ -141,16 +141,11 @@ System.out.println("C^3");
     {
 
 
-
-
-        if(X>1){
-
-            return Permutations1(N,X-1)*(N-X);
-
+        if(X==1){
+            return N;
         }
-
-
-        return N;
+        X--;
+        return Permutations1(N,X)*(N-X);
     }
 
 

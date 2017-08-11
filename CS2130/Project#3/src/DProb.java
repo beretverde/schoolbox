@@ -16,8 +16,8 @@ public class DProb
     {
         double perm = 1.0;
 
-        for (int x=0;x<X;x++){
-            perm = perm*(double)(N-x);
+        for (int i=0;x<X;x++){
+            perm = perm*(double)(N-i);
         }
         return perm;
     }
