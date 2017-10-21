@@ -1,0 +1,80 @@
+--CS 2550 Fall 2017
+--Tyler Jacox
+--SQL Assignment #2
+
+--1
+SELECT First_name||' '||Last_Name AS "Student Name", Phone
+FROM Student
+WHERE Employer='Board Utilities'
+ORDER BY Last_Name;
+
+--2
+SELECT DISTINCT Employer
+FROM Student
+WHERE Employer LIKE '%Systems%'
+ORDER BY Employer;
+
+--3
+SELECT Last_Name||', '||SUBSTR(First_Name,1,1)||'.' AS "Student Name", Phone
+FROM Student
+WHERE Phone LIKE '212%'
+ORDER BY Last_Name;
+
+--4
+SELECT First_Name||' '||Last_Name AS Student, Street_Address, Zip
+FROM Student
+WHERE Phone IS NULL
+ORDER BY Last_Name;
+
+--5
+SELECT DISTINCT Zip
+FROM Zipcode
+WHERE City='Jersey City'
+  AND State='NJ'
+ORDER BY Zip;
+
+--6
+SELECT Course_No,Location
+FROM Section
+WHERE LOCATION LIKE 'M%'
+ORDER BY Course_No;
+
+
+--7
+SELECT CASE WHEN STATE='MA' THEN 'Massachusetts'
+            WHEN STATE='FL' THEN 'Florida'
+            WHEN STATE='GA' THEN 'Georgia'
+            END AS "State Name",
+        State,
+        City
+FROM Zipcode
+WHERE State IN ('MA','FL','GA')
+ORDER BY City;
+
+--8
+SELECT Salutation||'. '||First_Name||' '||Last_Name||' '||Street_Address||' '||Zip AS "Instructor Address"
+FROM Instructor
+WHERE Zip='10025'
+ORDER BY First_Name;
+
+--9
+SELECT Student_Id,Numeric_Grade
+FROM Grade
+WHERE Section_Id='87'
+  AND Grade_Type_Code='FI'
+ORDER BY Numeric_Grade DESC;
+
+--10
+SELECT Student_Id,
+       Numeric_Grade,
+       CASE WHEN Numeric_Grade >='85' THEN 'PASS'
+            ELSE 'FAIL'
+            END AS Result
+FROM Grade
+WHERE Grade_Type_Code='FI'
+  AND Section_Id='103'
+ORDER BY Student_Id;
+
+
+
+

@@ -1,0 +1,68 @@
+--CS 2550 Fall 2017
+--Tyler Jacox
+--SQL Assignment #1
+
+--1
+SELECT First_Name, Last_Name
+FROM Instructor
+ORDER BY Last_Name;
+
+--2
+SELECT DISTINCT Location
+FROM Section
+ORDER BY Location;
+
+--3
+SELECT First_Name, Last_Name
+FROM Instructor
+WHERE Last_Name LIKE 'W%'
+ORDER BY First_Name;
+
+--4
+SELECT Phone, First_Name||' '||Last_Name AS FullName,Employer
+FROM Student
+WHERE Last_Name='Miller'
+ORDER BY Phone;
+
+--5
+SELECT Course_No, Description
+FROM Course
+WHERE Prerequisite='20'
+ORDER BY Course_No;
+
+--6
+SELECT Course_No, Description, Cost
+FROM Course
+WHERE Course_No BETWEEN 200 AND 299
+  AND Cost < 1100
+ORDER BY Course_No;
+
+--7
+SELECT Course_No, Section_Id
+FROM Section
+WHERE Course_No BETWEEN 100 AND 199
+  AND Location IN ('L211','L214')
+ORDER BY Course_No, Section_Id;
+
+--8
+SELECT Course_No, Section_Id
+FROM Section
+WHERE Capacity IN ('10','12')
+ORDER BY Course_No, Section_Id;
+
+--9
+SELECT Student_Id,Numeric_Grade
+FROM Grade
+WHERE Section_Id='147'
+  AND Grade_Type_Code='FI'
+ORDER BY Student_Id, Numeric_Grade;
+
+--10
+SELECT Course_No, Description
+FROM Course
+WHERE Course_No BETWEEN 200 AND 299
+  AND Prerequisite IS NOT NULL
+ORDER BY Description;
+
+
+

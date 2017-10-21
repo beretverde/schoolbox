@@ -1,0 +1,136 @@
+--CS 2550 Fall 2017
+--Tyler Jacox
+--SQL Assignment #5
+
+--1
+SELECT
+  c.Course_No,
+  Description,
+  to_char(COST, '9999') AS COST
+FROM course c
+  JOIN section s
+    ON c.course_no = s.course_no
+  JOIN instructor i
+    ON s.instructor_id = i.instructor_id
+       AND i.last_name = 'Lowry'
+ORDER BY Course_No;
+
+--2
+SELECT MAX(Numeric_Grade) AS HIGHEST_FINAL_GRADE
+FROM Section s
+  JOIN Enrollment e
+    ON s.section_id = e.section_id
+  JOIN Grade g
+    ON e.student_id = g.student_id AND e.section_id = g.section_id
+WHERE s.course_no = 130
+      AND g.grade_type_code = 'FI';
+
+--3
+SELECT
+  First_Name,
+  Last_Name,
+  PHONE
+FROM Student s
+  JOIN Zipcode zip
+    ON s.zip = zip.zip
+WHERE zip.city = 'New York'
+      AND zip.state = 'NY'
+ORDER BY Last_Name, First_Name;
+
+-- 4
+
+SELECT
+  gt.GRADE_TYPE_CODE,
+  gt.Description,
+  gtw.number_per_section
+FROM GRADE_TYPE_WEIGHT gtw
+  JOIN GRADE_TYPE gt
+    ON gt.GRADE_TYPE_CODE = gtw.GRADE_TYPE_CODE
+  JOIN SECTION s
+    ON s.SECTION_ID = gtw.SECTION_ID
+WHERE course_no = 220;
+
+--5
+
+SELECT
+  g.STUDENT_ID,
+  Last_Name || ', ' || First_Name AS STUDENT_NAME
+FROM Student s
+  JOIN Enrollment e
+    ON s.student_id = e.student_id
+  JOIN Grade g
+    ON e.student_id = g.student_id
+GROUP BY Last_Name, First_Name, g.STUDENT_ID
+HAVING AVG(numeric_grade) < 80
+ORDER BY Last_Name, FIRST_NAME;
+
+--6
+SELECT
+  COST,
+  COUNT(*) AS COURSES
+FROM COURSE
+GROUP BY COST
+HAVING COST IS NOT NULL AND Count(*) > 2;
+
+--7
+SELECT
+  c.course_no,
+  count(*) AS Enrolled
+FROM Course c
+  JOIN Section s
+    ON c.course_no = s.course_no
+  JOIN Enrollment e
+    ON s.section_id = e.section_id
+WHERE c.prerequisite IS NULL
+GROUP BY c.course_no
+ORDER BY Enrolled;
+
+--8
+SELECT DISTINCT
+  s.First_Name,
+  s.Last_Name,
+  s.Phone,
+  e.enroll_date
+FROM Student s
+  JOIN Zipcode zip
+    ON s.zip = zip.zip
+  JOIN Enrollment e
+    ON s.student_id = e.student_id
+WHERE zip.city = 'Stamford'
+      AND zip.state = 'CT'
+      AND e.enroll_date >= TO_DATE('02-19-2007 10:20 AM', 'MM-DD-YYYY HH:MI AM');
+
+--9
+SELECT
+  s.Course_no,
+  c.DESCRIPTION
+FROM Section s
+  JOIN Grade_Type_Weight gtw
+    ON s.section_id = gtw.section_id
+  JOIN Course c
+    ON s.COURSE_NO = c.COURSE_NO
+WHERE gtw.grade_type_code = 'PJ'
+ORDER BY course_no;
+
+--10
+SELECT
+  c.Course_NO,
+  prereq.Course_NO   AS "Prereqisite Course Number",
+  prereq.Description AS "Prereqisite Course Description"
+FROM Course c
+  JOIN Course prereq
+    ON prereq.course_no = c.prerequisite
+WHERE c.course_no >= 300
+      AND c.course_no < 400
+ORDER BY COURSE_NO;
+
+-- Test
+
+SELECT *
+FROM GRADE_TYPE;
+
+
+
+
+
+
