@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@titan.cs.weber.edu">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="CS2550TYLERJACOX">
+      <ObjectId>1383</ObjectId>
+      <IntrospectionTimestamp>2017-10-21.17:34:02</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <CommentsHash>476396244541460</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="RHILTON">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="CS2550LAVELLEDWARDS">
+      <ObjectId>238</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="DWEIDMAN">
+      <ObjectId>299</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="CS2550JOHNLOCKE">
+      <ObjectId>434</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="CHINOOK">
+      <ObjectId>536</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="CHINOOKDATABASE">
+      <ObjectId>537</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="CS2550GRADER">
+      <ObjectId>713</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="SGRAYSTON">
+      <ObjectId>923</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="PATRICKJENSON">
+      <ObjectId>1138</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="CS4790STUDENT">
+      <ObjectId>1280</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="CS2550GRADINGPROGRAM">
+      <ObjectId>1281</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="SCOTTSONDEREGGER">
+      <ObjectId>1297</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="CS4450FALL2017">
+      <ObjectId>1299</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="CS2550PAULREOYO">
+      <ObjectId>1335</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="CS2550BADERBINSUNBIL">
+      <ObjectId>1345</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="CS2550DANIELBYBEE">
+      <ObjectId>1346</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="CS2550PASTORCANAYO">
+      <ObjectId>1347</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="CS2550ANDREWDECKER">
+      <ObjectId>1348</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="CS2550MATTDYE">
+      <ObjectId>1349</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="CS2550JACOBESTERHOLDT">
+      <ObjectId>1350</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="CS2550ROBERTGARCIA">
+      <ObjectId>1351</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="CS2550JASONHAWKINS">
+      <ObjectId>1352</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="CS2550DUSTINHENSON">
+      <ObjectId>1353</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="CS2550KYLEKENNEDY">
+      <ObjectId>1354</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="CS2550JEREMIAHLAFAZIA">
+      <ObjectId>1355</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="CS2550JACKIELIVAUDAIS">
+      <ObjectId>1356</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="CS2550TREVORPEDERSEN">
+      <ObjectId>1357</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="CS2550BLAKESHERIDAN">
+      <ObjectId>1358</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="CS2550CALEBSLAMA">
+      <ObjectId>1359</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="CS2550CHRISTIANSLEVE">
+      <ObjectId>1360</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="CS2550COLESMITH">
+      <ObjectId>1361</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="CS2550ELISESMITH">
+      <ObjectId>1362</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="CS2550LUKEWILSON">
+      <ObjectId>1363</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="CS2550CEDARAMY">
+      <ObjectId>1364</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="CS2550ALEXBALDWIN">
+      <ObjectId>1365</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="CS2550ADAMBALLIMIRANDA">
+      <ObjectId>1366</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="CS2550JAREDBEAN">
+      <ObjectId>1367</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="CS2550RYANBRANIN">
+      <ObjectId>1368</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="CS2550JEFFERSONCAIRO">
+      <ObjectId>1369</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="CS2550JOSHUACALL">
+      <ObjectId>1370</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="CS2550TOBINCHRISTENSEN">
+      <ObjectId>1371</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="CS2550CONNERCHRISTIANSEN">
+      <ObjectId>1372</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="CS2550KALEBDALE">
+      <ObjectId>1373</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="CS2550MICHAELDICKSON">
+      <ObjectId>1374</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="CS2550SHANNAFRANKE">
+      <ObjectId>1375</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="CS2550ARICGLANVILLE">
+      <ObjectId>1376</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="CS2550JACOBGONZALES">
+      <ObjectId>1377</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="CS2550DANIELHALE">
+      <ObjectId>1378</ObjectId>
+    </schema>
+    <schema id="80" parent="1" name="CS2550KYLEHANZELKA">
+      <ObjectId>1379</ObjectId>
+    </schema>
+    <schema id="81" parent="1" name="CS2550JAREDHOLMES">
+      <ObjectId>1380</ObjectId>
+    </schema>
+    <schema id="82" parent="1" name="CS2550EMILYHOOVER">
+      <ObjectId>1381</ObjectId>
+    </schema>
+    <schema id="83" parent="1" name="CS2550WILLIAMHOWELL">
+      <ObjectId>1382</ObjectId>
+    </schema>
+    <schema id="84" parent="1" name="CS2550JOSEPHJENSEN">
+      <ObjectId>1384</ObjectId>
+    </schema>
+    <schema id="85" parent="1" name="CS2550JARREDJOHNSON">
+      <ObjectId>1385</ObjectId>
+    </schema>
+    <schema id="86" parent="1" name="CS2550NICHOLASKRIVANEC">
+      <ObjectId>1386</ObjectId>
+    </schema>
+    <schema id="87" parent="1" name="CS2550DANLARSEN">
+      <ObjectId>1387</ObjectId>
+    </schema>
+    <schema id="88" parent="1" name="CS2550RACHELLAUB">
+      <ObjectId>1388</ObjectId>
+    </schema>
+    <schema id="89" parent="1" name="CS2550RUTHLITTLE">
+      <ObjectId>1389</ObjectId>
+    </schema>
+    <schema id="90" parent="1" name="CS2550NATHANLYON">
+      <ObjectId>1390</ObjectId>
+    </schema>
+    <schema id="91" parent="1" name="CS2550NICHOLASMADSEN">
+      <ObjectId>1391</ObjectId>
+    </schema>
+    <schema id="92" parent="1" name="CS2550SAMUELMARTINEZ">
+      <ObjectId>1392</ObjectId>
+    </schema>
+    <schema id="93" parent="1" name="CS2550RACHELMIDDLETON">
+      <ObjectId>1393</ObjectId>
+    </schema>
+    <schema id="94" parent="1" name="CS2550BRENDENMORRIS">
+      <ObjectId>1394</ObjectId>
+    </schema>
+    <schema id="95" parent="1" name="CS2550CHASEOLSEN">
+      <ObjectId>1395</ObjectId>
+    </schema>
+    <schema id="96" parent="1" name="CS2550DAVIDPENROD">
+      <ObjectId>1396</ObjectId>
+    </schema>
+    <schema id="97" parent="1" name="CS2550TREVORPHILLIPS">
+      <ObjectId>1397</ObjectId>
+    </schema>
+    <schema id="98" parent="1" name="CS2550JACOBPITKIN">
+      <ObjectId>1398</ObjectId>
+    </schema>
+    <schema id="99" parent="1" name="CS2550ANTHONYREININGER">
+      <ObjectId>1399</ObjectId>
+    </schema>
+    <schema id="100" parent="1" name="CS2550STEPHENRICHARDSON">
+      <ObjectId>1400</ObjectId>
+    </schema>
+    <schema id="101" parent="1" name="CS2550LANDONRIVES">
+      <ObjectId>1401</ObjectId>
+    </schema>
+    <schema id="102" parent="1" name="CS2550JUSTINROBERTS">
+      <ObjectId>1402</ObjectId>
+    </schema>
+    <schema id="103" parent="1" name="CS2550MICHAELRUSSELL">
+      <ObjectId>1403</ObjectId>
+    </schema>
+    <schema id="104" parent="1" name="CS2550JUANSANTOS">
+      <ObjectId>1404</ObjectId>
+    </schema>
+    <schema id="105" parent="1" name="CS2550JACOBSAUNDERS">
+      <ObjectId>1405</ObjectId>
+    </schema>
+    <schema id="106" parent="1" name="CS2550KAMERONSEARLE">
+      <ObjectId>1406</ObjectId>
+    </schema>
+    <schema id="107" parent="1" name="CS2550LUCASSMITH">
+      <ObjectId>1407</ObjectId>
+    </schema>
+    <schema id="108" parent="1" name="CS2550JODYTHOMAS">
+      <ObjectId>1408</ObjectId>
+    </schema>
+    <schema id="109" parent="1" name="CS2550CARSONTYLER">
+      <ObjectId>1409</ObjectId>
+    </schema>
+    <schema id="110" parent="1" name="CS2550TAYLENWANNER">
+      <ObjectId>1410</ObjectId>
+    </schema>
+    <schema id="111" parent="1" name="CS2550AARONWHIPPLE">
+      <ObjectId>1411</ObjectId>
+    </schema>
+    <schema id="112" parent="1" name="CS2550ZONGMINXUE">
+      <ObjectId>1412</ObjectId>
+    </schema>
+    <schema id="113" parent="1" name="CS2550JORDANYAZZIE">
+      <ObjectId>1413</ObjectId>
+    </schema>
+    <schema id="114" parent="1" name="CS2550DARYLADAMS">
+      <ObjectId>1414</ObjectId>
+    </schema>
+    <schema id="115" parent="1" name="CS2550ANTHONYBAHL">
+      <ObjectId>1415</ObjectId>
+    </schema>
+    <schema id="116" parent="1" name="CS2550JOEBARKER">
+      <ObjectId>1416</ObjectId>
+    </schema>
+    <schema id="117" parent="1" name="CS2550WILLIAMBLACK">
+      <ObjectId>1417</ObjectId>
+    </schema>
+    <schema id="118" parent="1" name="CS2550DANIELBROWN">
+      <ObjectId>1418</ObjectId>
+    </schema>
+    <schema id="119" parent="1" name="CS2550KEEGANBRUCE">
+      <ObjectId>1419</ObjectId>
+    </schema>
+    <schema id="120" parent="1" name="CS2550INDIANACALDER">
+      <ObjectId>1420</ObjectId>
+    </schema>
+    <schema id="121" parent="1" name="CS2550SHANIAEMMETT">
+      <ObjectId>1421</ObjectId>
+    </schema>
+    <schema id="122" parent="1" name="CS2550STEPHANIEFULLER">
+      <ObjectId>1422</ObjectId>
+    </schema>
+    <schema id="123" parent="1" name="CS2550TYLERJEWETT">
+      <ObjectId>1423</ObjectId>
+    </schema>
+    <schema id="124" parent="1" name="CS2550WEILUNMAI">
+      <ObjectId>1424</ObjectId>
+    </schema>
+    <schema id="125" parent="1" name="CS2550CONNERMARTIN">
+      <ObjectId>1425</ObjectId>
+    </schema>
+    <schema id="126" parent="1" name="CS2550RYANMIDDLETON">
+      <ObjectId>1426</ObjectId>
+    </schema>
+    <schema id="127" parent="1" name="CS2550DWIGHTMITCHELL">
+      <ObjectId>1427</ObjectId>
+    </schema>
+    <schema id="128" parent="1" name="CS2550KEVINNELSON">
+      <ObjectId>1428</ObjectId>
+    </schema>
+    <schema id="129" parent="1" name="CS2550THUYNGUYEN">
+      <ObjectId>1429</ObjectId>
+    </schema>
+    <schema id="130" parent="1" name="CS2550BRENTONRANDOLPH">
+      <ObjectId>1430</ObjectId>
+    </schema>
+    <schema id="131" parent="1" name="CS2550DAMIANRICHARDS">
+      <ObjectId>1431</ObjectId>
+    </schema>
+    <schema id="132" parent="1" name="CS2550TYLERSANDOVAL">
+      <ObjectId>1432</ObjectId>
+    </schema>
+    <schema id="133" parent="1" name="CS2550TANNERSCHULZ">
+      <ObjectId>1433</ObjectId>
+    </schema>
+    <schema id="134" parent="1" name="CS2550TREVORSMITH">
+      <ObjectId>1434</ObjectId>
+    </schema>
+    <schema id="135" parent="1" name="CS2550JOSHUASTAMMEN">
+      <ObjectId>1435</ObjectId>
+    </schema>
+    <schema id="136" parent="1" name="CS2550WACEYSTIMPSON">
+      <ObjectId>1436</ObjectId>
+    </schema>
+    <schema id="137" parent="1" name="CS2550ABIGAILSTURGEON">
+      <ObjectId>1437</ObjectId>
+    </schema>
+    <schema id="138" parent="1" name="CS2550MARYTAYLOR">
+      <ObjectId>1438</ObjectId>
+    </schema>
+    <schema id="139" parent="1" name="CS2550KEVINTENNEY">
+      <ObjectId>1439</ObjectId>
+    </schema>
+    <schema id="140" parent="1" name="CS2550MATTHEWTINGEY">
+      <ObjectId>1440</ObjectId>
+    </schema>
+    <schema id="141" parent="1" name="CS2550LOGANTOPONCE">
+      <ObjectId>1441</ObjectId>
+    </schema>
+    <schema id="142" parent="1" name="CS2550AUSTINVAUGHN">
+      <ObjectId>1442</ObjectId>
+    </schema>
+    <schema id="143" parent="1" name="CS2550GRIFFINWALLACE">
+      <ObjectId>1443</ObjectId>
+    </schema>
+    <schema id="144" parent="1" name="CS2550NEDARMSTRONG">
+      <ObjectId>1444</ObjectId>
+    </schema>
+    <schema id="145" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="146" parent="2" name="COURSE_NO_SEQ">
+      <ObjectId>346466</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="147" parent="2" name="INSTRUCTOR_ID_SEQ">
+      <ObjectId>346463</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="148" parent="2" name="SECTION_ID_SEQ">
+      <ObjectId>346464</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="149" parent="2" name="STUDENT_ID_SEQ">
+      <ObjectId>346465</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <table id="150" parent="2" name="COURSE">
+      <ObjectId>346440</ObjectId>
+      <Comment>Information for a course.</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="151" parent="2" name="CUSTOMER">
+      <ObjectId>347628</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:55:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="152" parent="2" name="EMPLOYEE">
+      <ObjectId>347630</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:55:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="153" parent="2" name="ENROLLMENT">
+      <ObjectId>346441</ObjectId>
+      <Comment>Information for a student registered for a particular section (class).</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="154" parent="2" name="GRADE">
+      <ObjectId>346435</ObjectId>
+      <Comment>The individual grades a student received for a particular section(class).</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="155" parent="2" name="GRADE_CONVERSION">
+      <ObjectId>346437</ObjectId>
+      <Comment>Converts a number grade to a letter grade.</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="156" parent="2" name="GRADE_TYPE">
+      <ObjectId>346436</ObjectId>
+      <Comment>Lookup table of a grade types (code) and its description.</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="157" parent="2" name="GRADE_TYPE_WEIGHT">
+      <ObjectId>346438</ObjectId>
+      <Comment>Information on how the final grade for a particular section is computed.  For example, the midterm constitutes 50%, the quiz 10% and the final examination 40% of the final grade.</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="158" parent="2" name="INSTRUCTOR">
+      <ObjectId>346434</ObjectId>
+      <Comment>Profile information for an instructor.</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="159" parent="2" name="ORDERTBL">
+      <ObjectId>347632</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:55:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="160" parent="2" name="ORDLINE">
+      <ObjectId>347636</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:55:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="161" parent="2" name="PRODUCT">
+      <ObjectId>347634</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:55:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="162" parent="2" name="SECTION">
+      <ObjectId>346439</ObjectId>
+      <Comment>Information for an individual section (class) of a particular course.</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="163" parent="2" name="STUDENT">
+      <ObjectId>346442</ObjectId>
+      <Comment>Profile information for a student.</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="164" parent="2" name="ZIPCODE">
+      <ObjectId>346443</ObjectId>
+      <Comment>City, state and zip code information.</Comment>
+      <CreatedTimestamp>2017-09-06.14:51:23</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="165" parent="150" name="COURSE_NO">
+      <Position>1</Position>
+      <Comment>The unique ID for a course.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="166" parent="150" name="DESCRIPTION">
+      <Position>2</Position>
+      <Comment>The full name for this course.</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="167" parent="150" name="COST">
+      <Position>3</Position>
+      <Comment>The dollar amount charged for enrollment in this course.</Comment>
+      <DataType>NUMBER(9,2)|0</DataType>
+    </column>
+    <column id="168" parent="150" name="PREREQUISITE">
+      <Position>4</Position>
+      <Comment>The ID number of the course which must be taken as a prerequisite to this course.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+    </column>
+    <column id="169" parent="150" name="CREATED_BY">
+      <Position>5</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="170" parent="150" name="CREATED_DATE">
+      <Position>6</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="171" parent="150" name="MODIFIED_BY">
+      <Position>7</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="172" parent="150" name="MODIFIED_DATE">
+      <Position>8</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="173" parent="150" name="CRSE_PK">
+      <ObjectId>346458</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>COURSE_NO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="174" parent="150" name="CRSE_CRSE_FK_I">
+      <ObjectId>346449</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:24</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PREREQUISITE</ColNames>
+    </index>
+    <key id="175" parent="150" name="CRSE_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>COURSE_NO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CRSE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="176" parent="150" name="CRSE_CRSE_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>PREREQUISITE</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>COURSE</RefTableName>
+      <RefKeyName>CRSE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="177" parent="150" name="CRSE_COURSE_NO_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>COURSE_NO</ColNames>
+      <Predicate>&quot;COURSE_NO&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="178" parent="150" name="CRSE_DESCRIPTION_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>DESCRIPTION</ColNames>
+      <Predicate>&quot;DESCRIPTION&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="179" parent="150" name="CRSE_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="180" parent="150" name="CRSE_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="181" parent="150" name="CRSE_MODIFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="182" parent="150" name="CRSE_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="183" parent="151" name="CUSTNO">
+      <Position>1</Position>
+      <DataType>VARCHAR2(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="184" parent="151" name="CUSTFIRSTNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="185" parent="151" name="CUSTLASTNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="186" parent="151" name="CUSTSTREET">
+      <Position>4</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="187" parent="151" name="CUSTCITY">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="188" parent="151" name="CUSTSTATE">
+      <Position>6</Position>
+      <DataType>CHAR(2)|0</DataType>
+    </column>
+    <column id="189" parent="151" name="CUSTZIP">
+      <Position>7</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="190" parent="151" name="CUSTBAL">
+      <Position>8</Position>
+      <DataType>NUMBER(*,2)|0</DataType>
+      <DefaultExpression>(0)</DefaultExpression>
+    </column>
+    <index id="191" parent="151" name="PKCUSTNO">
+      <ObjectId>347629</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:55:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CUSTNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="192" parent="151" name="PKCUSTNO">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>CUSTNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PKCUSTNO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="193" parent="151" name="CUSTFIRSTNAMEREQUIRED">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>CUSTFIRSTNAME</ColNames>
+      <Predicate>&quot;CUSTFIRSTNAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="194" parent="151" name="CUSTLASTNAMEREQUIRED">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>CUSTLASTNAME</ColNames>
+      <Predicate>&quot;CUSTLASTNAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="195" parent="152" name="EMPNO">
+      <Position>1</Position>
+      <DataType>CHAR(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="196" parent="152" name="EMPFIRSTNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="197" parent="152" name="EMPLASTNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="198" parent="152" name="EMPPHONE">
+      <Position>4</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+    </column>
+    <column id="199" parent="152" name="SUPEMPNO">
+      <Position>5</Position>
+      <DataType>CHAR(8)|0</DataType>
+    </column>
+    <column id="200" parent="152" name="EMPCOMMRATE">
+      <Position>6</Position>
+      <DataType>NUMBER(1,2)|0</DataType>
+      <DefaultExpression>(0)</DefaultExpression>
+    </column>
+    <column id="201" parent="152" name="EMPEMAIL">
+      <Position>7</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <index id="202" parent="152" name="PKEMPNO">
+      <ObjectId>347631</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:55:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="203" parent="152" name="PKEMPNO">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PKEMPNO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="204" parent="152" name="FKSUPEMPNO">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>SUPEMPNO</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>PKEMPNO</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="205" parent="152" name="EMPFIRSTNAMEREQUIRED">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>EMPFIRSTNAME</ColNames>
+      <Predicate>&quot;EMPFIRSTNAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="206" parent="152" name="EMPLASTNAMEREQUIRED">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>EMPLASTNAME</ColNames>
+      <Predicate>&quot;EMPLASTNAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="207" parent="153" name="STUDENT_ID">
+      <Position>1</Position>
+      <Comment>The unique ID for a student.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="208" parent="153" name="SECTION_ID">
+      <Position>2</Position>
+      <Comment>The unique ID for a section.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="209" parent="153" name="ENROLL_DATE">
+      <Position>3</Position>
+      <Comment>The date this student registered for this section.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="210" parent="153" name="FINAL_GRADE">
+      <Position>4</Position>
+      <Comment>The final grade given to this student for all work in this section (class).</Comment>
+      <DataType>NUMBER(3)|0</DataType>
+    </column>
+    <column id="211" parent="153" name="CREATED_BY">
+      <Position>5</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="212" parent="153" name="CREATED_DATE">
+      <Position>6</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="213" parent="153" name="MODIFIED_BY">
+      <Position>7</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="214" parent="153" name="MODIFIED_DATE">
+      <Position>8</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="215" parent="153" name="ENR_PK">
+      <ObjectId>346459</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STUDENT_ID
+SECTION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="216" parent="153" name="ENR_SECT_FK_I">
+      <ObjectId>346450</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:24</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SECTION_ID</ColNames>
+    </index>
+    <key id="217" parent="153" name="ENR_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>STUDENT_ID
+SECTION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ENR_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="218" parent="153" name="ENR_STU_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>STUDENT_ID</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>STUDENT</RefTableName>
+      <RefKeyName>STU_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="219" parent="153" name="ENR_SECT_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>SECTION_ID</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>SECTION</RefTableName>
+      <RefKeyName>SECT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="220" parent="153" name="ENR_STUDENT_ID_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>STUDENT_ID</ColNames>
+      <Predicate>&quot;STUDENT_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="221" parent="153" name="ENR_SECTION_ID_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>SECTION_ID</ColNames>
+      <Predicate>&quot;SECTION_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="222" parent="153" name="ENR_ENROLL_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>ENROLL_DATE</ColNames>
+      <Predicate>&quot;ENROLL_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="223" parent="153" name="ENR_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="224" parent="153" name="ENR_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="225" parent="153" name="ENR_MODIFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="226" parent="153" name="ENR_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="227" parent="154" name="STUDENT_ID">
+      <Position>1</Position>
+      <Comment>The unique ID for the student.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="228" parent="154" name="SECTION_ID">
+      <Position>2</Position>
+      <Comment>The unique ID for a section.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="229" parent="154" name="GRADE_TYPE_CODE">
+      <Position>3</Position>
+      <Comment>The code which identifies a category of grade.</Comment>
+      <DataType>CHAR(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="230" parent="154" name="GRADE_CODE_OCCURRENCE">
+      <Position>4</Position>
+      <Comment>The sequence number of one grade type for one section. For example, there could be multiple assignments numbered 1, 2, 3, etc.</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="231" parent="154" name="NUMERIC_GRADE">
+      <Position>5</Position>
+      <Comment>Numeric grade value, (e.g. 70, 75.)</Comment>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0 
+ </DefaultExpression>
+    </column>
+    <column id="232" parent="154" name="COMMENTS">
+      <Position>6</Position>
+      <Comment>Instructor&apos;s comments on this grade.</Comment>
+      <DataType>VARCHAR2(2000)|0</DataType>
+    </column>
+    <column id="233" parent="154" name="CREATED_BY">
+      <Position>7</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="234" parent="154" name="CREATED_DATE">
+      <Position>8</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="235" parent="154" name="MODIFIED_BY">
+      <Position>9</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="236" parent="154" name="MODIFIED_DATE">
+      <Position>10</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="237" parent="154" name="GR_PK">
+      <ObjectId>346453</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STUDENT_ID
+SECTION_ID
+GRADE_TYPE_CODE
+GRADE_CODE_OCCURRENCE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="238" parent="154" name="GR_GRTW_FK_I">
+      <ObjectId>346445</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:24</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SECTION_ID
+GRADE_TYPE_CODE</ColNames>
+    </index>
+    <key id="239" parent="154" name="GR_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>STUDENT_ID
+SECTION_ID
+GRADE_TYPE_CODE
+GRADE_CODE_OCCURRENCE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>GR_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="240" parent="154" name="GR_ENR_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>STUDENT_ID
+SECTION_ID</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>ENROLLMENT</RefTableName>
+      <RefKeyName>ENR_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="241" parent="154" name="GR_GRTW_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>SECTION_ID
+GRADE_TYPE_CODE</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>GRADE_TYPE_WEIGHT</RefTableName>
+      <RefKeyName>GRTW_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="242" parent="154" name="GR_STUDENT_ID_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>STUDENT_ID</ColNames>
+      <Predicate>&quot;STUDENT_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="243" parent="154" name="GR_SECTION_ID_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>SECTION_ID</ColNames>
+      <Predicate>&quot;SECTION_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="244" parent="154" name="GR_GRADE_TYPE_CODE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>GRADE_TYPE_CODE</ColNames>
+      <Predicate>&quot;GRADE_TYPE_CODE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="245" parent="154" name="GR_GRADE_CODE_OCCURRENCE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>GRADE_CODE_OCCURRENCE</ColNames>
+      <Predicate>&quot;GRADE_CODE_OCCURRENCE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="246" parent="154" name="GR_NUMERIC_GRADE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>NUMERIC_GRADE</ColNames>
+      <Predicate>&quot;NUMERIC_GRADE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="247" parent="154" name="GR_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="248" parent="154" name="GR_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="249" parent="154" name="GR_MODIFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="250" parent="154" name="GR_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="251" parent="155" name="LETTER_GRADE">
+      <Position>1</Position>
+      <Comment>The unique grade as a letter (A, A-, B, B+, etc.).</Comment>
+      <DataType>VARCHAR2(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="252" parent="155" name="GRADE_POINT">
+      <Position>2</Position>
+      <Comment>The number grade on a scale from 0 (F) to 4 (A).</Comment>
+      <DataType>NUMBER(3,2)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0 
+ </DefaultExpression>
+    </column>
+    <column id="253" parent="155" name="MAX_GRADE">
+      <Position>3</Position>
+      <Comment>The highest grade number which makes this letter grade.</Comment>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="254" parent="155" name="MIN_GRADE">
+      <Position>4</Position>
+      <Comment>The lowest grade number which makes this letter grade.</Comment>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="255" parent="155" name="CREATED_BY">
+      <Position>5</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="256" parent="155" name="CREATED_DATE">
+      <Position>6</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="257" parent="155" name="MODIFIED_BY">
+      <Position>7</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="258" parent="155" name="MODIFIED_DATE">
+      <Position>8</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="259" parent="155" name="GRCON_PK">
+      <ObjectId>346455</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>LETTER_GRADE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="260" parent="155" name="GRCON_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>LETTER_GRADE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>GRCON_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="261" parent="155" name="GRCON_LETTER_GRADE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>LETTER_GRADE</ColNames>
+      <Predicate>&quot;LETTER_GRADE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="262" parent="155" name="GRCON_GRADE_POINT_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>GRADE_POINT</ColNames>
+      <Predicate>&quot;GRADE_POINT&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="263" parent="155" name="GRCON_MAX_GRADE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MAX_GRADE</ColNames>
+      <Predicate>&quot;MAX_GRADE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="264" parent="155" name="GRCON_MIN_GRADE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MIN_GRADE</ColNames>
+      <Predicate>&quot;MIN_GRADE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="265" parent="155" name="GRCON_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="266" parent="155" name="GRCON_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="267" parent="155" name="GRCON_MODIFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="268" parent="155" name="GRCON_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="269" parent="156" name="GRADE_TYPE_CODE">
+      <Position>1</Position>
+      <Comment>The unique code which identifies a category of grade, i.e. MT, HW.</Comment>
+      <DataType>CHAR(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="270" parent="156" name="DESCRIPTION">
+      <Position>2</Position>
+      <Comment>The description for this code, i.e. Midterm, Homework.</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="271" parent="156" name="CREATED_BY">
+      <Position>3</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="272" parent="156" name="CREATED_DATE">
+      <Position>4</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="273" parent="156" name="MODIFIED_BY">
+      <Position>5</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="274" parent="156" name="MODIFIED_DATE">
+      <Position>6</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="275" parent="156" name="GRTYP_PK">
+      <ObjectId>346454</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>GRADE_TYPE_CODE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="276" parent="156" name="GRTYP_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>GRADE_TYPE_CODE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>GRTYP_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="277" parent="156" name="GRTYP_GRADE_TYPE_CODE_LENGTH">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>GRADE_TYPE_CODE</ColNames>
+      <Predicate>LENGTH(grade_type_code)=2</Predicate>
+    </check>
+    <check id="278" parent="156" name="GRTYP_GRADE_TYPE_CODE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>GRADE_TYPE_CODE</ColNames>
+      <Predicate>&quot;GRADE_TYPE_CODE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="279" parent="156" name="GRTYP_DESCRIPTION_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>DESCRIPTION</ColNames>
+      <Predicate>&quot;DESCRIPTION&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="280" parent="156" name="GRTYP_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="281" parent="156" name="GRTYP_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="282" parent="156" name="GRTYP_MODIFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="283" parent="156" name="GRTYP_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="284" parent="157" name="SECTION_ID">
+      <Position>1</Position>
+      <Comment>The unique section ID for a section.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="285" parent="157" name="GRADE_TYPE_CODE">
+      <Position>2</Position>
+      <Comment>The code which identifies a category of grade.</Comment>
+      <DataType>CHAR(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="286" parent="157" name="NUMBER_PER_SECTION">
+      <Position>3</Position>
+      <Comment>How many of these grade types can be used in this section.  That is, there may be 3 quizzes.</Comment>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="287" parent="157" name="PERCENT_OF_FINAL_GRADE">
+      <Position>4</Position>
+      <Comment>The percentage this category of grade contributes to the final grade.</Comment>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="288" parent="157" name="DROP_LOWEST">
+      <Position>5</Position>
+      <Comment>Is the lowest grade in this type removed when determining the final grade? (Y/N)</Comment>
+      <DataType>CHAR(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="289" parent="157" name="CREATED_BY">
+      <Position>6</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="290" parent="157" name="CREATED_DATE">
+      <Position>7</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="291" parent="157" name="MODIFIED_BY">
+      <Position>8</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="292" parent="157" name="MODIFIED_DATE">
+      <Position>9</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="293" parent="157" name="GRTW_PK">
+      <ObjectId>346456</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SECTION_ID
+GRADE_TYPE_CODE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="294" parent="157" name="GRTW_GRTYP_FK_I">
+      <ObjectId>346446</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:24</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>GRADE_TYPE_CODE</ColNames>
+    </index>
+    <key id="295" parent="157" name="GRTW_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>SECTION_ID
+GRADE_TYPE_CODE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>GRTW_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="296" parent="157" name="GRTW_SECT_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>SECTION_ID</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>SECTION</RefTableName>
+      <RefKeyName>SECT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="297" parent="157" name="GRTW_GRTYP_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>GRADE_TYPE_CODE</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>GRADE_TYPE</RefTableName>
+      <RefKeyName>GRTYP_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="298" parent="157" name="GRTW_SECTION_ID_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>SECTION_ID</ColNames>
+      <Predicate>&quot;SECTION_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="299" parent="157" name="GRTW_GRADE_TYPE_CODE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>GRADE_TYPE_CODE</ColNames>
+      <Predicate>&quot;GRADE_TYPE_CODE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="300" parent="157" name="GRTW_NUMBER_PER_SECTION_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>NUMBER_PER_SECTION</ColNames>
+      <Predicate>&quot;NUMBER_PER_SECTION&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="301" parent="157" name="GRTW_PCT_OF_FINAL_GRADE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>PERCENT_OF_FINAL_GRADE</ColNames>
+      <Predicate>&quot;PERCENT_OF_FINAL_GRADE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="302" parent="157" name="GRTW_DROP_LOWEST_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>DROP_LOWEST</ColNames>
+      <Predicate>&quot;DROP_LOWEST&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="303" parent="157" name="GRTW_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="304" parent="157" name="GRTW_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="305" parent="157" name="GRTW_MODIFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="306" parent="157" name="GRTW_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="307" parent="158" name="INSTRUCTOR_ID">
+      <Position>1</Position>
+      <Comment>The unique ID for an instructor.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="308" parent="158" name="SALUTATION">
+      <Position>2</Position>
+      <Comment>This instructor&apos;s title (Mr., Ms., Dr., Rev., etc.)</Comment>
+      <DataType>VARCHAR2(5)|0</DataType>
+    </column>
+    <column id="309" parent="158" name="FIRST_NAME">
+      <Position>3</Position>
+      <Comment>This instructor&apos;s first name.</Comment>
+      <DataType>VARCHAR2(25)|0</DataType>
+    </column>
+    <column id="310" parent="158" name="LAST_NAME">
+      <Position>4</Position>
+      <Comment>This instructor&apos;s last name</Comment>
+      <DataType>VARCHAR2(25)|0</DataType>
+    </column>
+    <column id="311" parent="158" name="STREET_ADDRESS">
+      <Position>5</Position>
+      <Comment>This Instructor&apos;s street address.</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="312" parent="158" name="ZIP">
+      <Position>6</Position>
+      <Comment>The postal zip code for this instructor.</Comment>
+      <DataType>VARCHAR2(5)|0</DataType>
+    </column>
+    <column id="313" parent="158" name="PHONE">
+      <Position>7</Position>
+      <Comment>The phone number for this instructor including area code.</Comment>
+      <DataType>VARCHAR2(15)|0</DataType>
+    </column>
+    <column id="314" parent="158" name="CREATED_BY">
+      <Position>8</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="315" parent="158" name="CREATED_DATE">
+      <Position>9</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="316" parent="158" name="MODIFIED_BY">
+      <Position>10</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="317" parent="158" name="MODIFIED_DATE">
+      <Position>11</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="318" parent="158" name="INST_PK">
+      <ObjectId>346452</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>INSTRUCTOR_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="319" parent="158" name="INST_ZIP_FK_I">
+      <ObjectId>346444</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:24</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ZIP</ColNames>
+    </index>
+    <key id="320" parent="158" name="INST_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>INSTRUCTOR_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>INST_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="321" parent="158" name="INST_ZIP_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>ZIP</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>ZIPCODE</RefTableName>
+      <RefKeyName>ZIP_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="322" parent="158" name="INST_INSTRUCTOR_ID_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>INSTRUCTOR_ID</ColNames>
+      <Predicate>&quot;INSTRUCTOR_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="323" parent="158" name="INST_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="324" parent="158" name="INST_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="325" parent="158" name="INST_MODFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="326" parent="158" name="INST_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:30</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="327" parent="159" name="ORDNO">
+      <Position>1</Position>
+      <DataType>CHAR(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="328" parent="159" name="ORDDATE">
+      <Position>2</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="329" parent="159" name="CUSTNO">
+      <Position>3</Position>
+      <DataType>VARCHAR2(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="330" parent="159" name="EMPNO">
+      <Position>4</Position>
+      <DataType>CHAR(8)|0</DataType>
+    </column>
+    <column id="331" parent="159" name="ORDNAME">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="332" parent="159" name="ORDSTREET">
+      <Position>6</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="333" parent="159" name="ORDCITY">
+      <Position>7</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="334" parent="159" name="ORDSTATE">
+      <Position>8</Position>
+      <DataType>CHAR(2)|0</DataType>
+    </column>
+    <column id="335" parent="159" name="ORDZIP">
+      <Position>9</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <index id="336" parent="159" name="PKORDNO">
+      <ObjectId>347633</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:55:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ORDNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="337" parent="159" name="PKORDNO">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>ORDNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PKORDNO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="338" parent="159" name="FKCUSTNO">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>CUSTNO</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>CUSTOMER</RefTableName>
+      <RefKeyName>PKCUSTNO</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="339" parent="159" name="FKEMPNO">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>PKEMPNO</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="340" parent="159" name="ORDDATEREQUIRED">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>ORDDATE</ColNames>
+      <Predicate>&quot;ORDDATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="341" parent="159" name="CUSTNOREQUIRED">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>CUSTNO</ColNames>
+      <Predicate>&quot;CUSTNO&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="342" parent="160" name="ORDNO">
+      <Position>1</Position>
+      <DataType>CHAR(8)|0</DataType>
+    </column>
+    <column id="343" parent="160" name="PRODNO">
+      <Position>2</Position>
+      <DataType>CHAR(8)|0</DataType>
+    </column>
+    <column id="344" parent="160" name="QTY">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>(1)</DefaultExpression>
+    </column>
+    <foreign-key id="345" parent="160" name="FKORDNO">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>ORDNO</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>ORDERTBL</RefTableName>
+      <RefKeyName>PKORDNO</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="346" parent="160" name="FKPRODNO">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>PRODNO</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>PRODUCT</RefTableName>
+      <RefKeyName>PKPRODNO</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="347" parent="161" name="PRODNO">
+      <Position>1</Position>
+      <DataType>CHAR(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="348" parent="161" name="PRODNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="349" parent="161" name="PRODMFG">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="350" parent="161" name="PRODQOH">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>(0)</DefaultExpression>
+    </column>
+    <column id="351" parent="161" name="PRODPRICE">
+      <Position>5</Position>
+      <DataType>NUMBER(*,2)|0</DataType>
+      <DefaultExpression>(0)</DefaultExpression>
+    </column>
+    <column id="352" parent="161" name="PRODNEXTSHIPDATE">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="353" parent="161" name="PKPRODNO">
+      <ObjectId>347635</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:55:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PRODNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="354" parent="161" name="PKPRODNO">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>PRODNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PKPRODNO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="355" parent="161" name="PRODNAMEREQUIRED">
+      <ModifiedTimestamp>2017-09-06.14:55:48</ModifiedTimestamp>
+      <ColNames>PRODNAME</ColNames>
+      <Predicate>&quot;PRODNAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="356" parent="162" name="SECTION_ID">
+      <Position>1</Position>
+      <Comment>The unique ID for a section.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="357" parent="162" name="COURSE_NO">
+      <Position>2</Position>
+      <Comment>The course number for which this is a section.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="358" parent="162" name="SECTION_NO">
+      <Position>3</Position>
+      <Comment>The individual section number within this course.</Comment>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="359" parent="162" name="START_DATE_TIME">
+      <Position>4</Position>
+      <Comment>The date and time on which this section meets.</Comment>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="360" parent="162" name="LOCATION">
+      <Position>5</Position>
+      <Comment>The meeting room for the section.</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="361" parent="162" name="INSTRUCTOR_ID">
+      <Position>6</Position>
+      <Comment>The ID number of the instructor who teaches this section.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="362" parent="162" name="CAPACITY">
+      <Position>7</Position>
+      <Comment>The maximum number of students allowed in this section.</Comment>
+      <DataType>NUMBER(3)|0</DataType>
+    </column>
+    <column id="363" parent="162" name="CREATED_BY">
+      <Position>8</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="364" parent="162" name="CREATED_DATE">
+      <Position>9</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="365" parent="162" name="MODIFIED_BY">
+      <Position>10</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="366" parent="162" name="MODIFIED_DATE">
+      <Position>11</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="367" parent="162" name="SECT_PK">
+      <ObjectId>346457</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SECTION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="368" parent="162" name="SECT_SECT2_UK">
+      <ObjectId>346462</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SECTION_NO
+COURSE_NO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="369" parent="162" name="SECT_CRSE_FK_I">
+      <ObjectId>346447</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:24</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>COURSE_NO</ColNames>
+    </index>
+    <index id="370" parent="162" name="SECT_INST_FK_I">
+      <ObjectId>346448</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:24</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>INSTRUCTOR_ID</ColNames>
+    </index>
+    <key id="371" parent="162" name="SECT_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>SECTION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SECT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="372" parent="162" name="SECT_SECT2_UK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>SECTION_NO
+COURSE_NO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SECT_SECT2_UK</UnderlyingIndexName>
+    </key>
+    <foreign-key id="373" parent="162" name="SECT_CRSE_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>COURSE_NO</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>COURSE</RefTableName>
+      <RefKeyName>CRSE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="374" parent="162" name="SECT_INST_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>INSTRUCTOR_ID</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>INSTRUCTOR</RefTableName>
+      <RefKeyName>INST_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="375" parent="162" name="SECT_SECTION_ID_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>SECTION_ID</ColNames>
+      <Predicate>&quot;SECTION_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="376" parent="162" name="SECT_COURSE_NO_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>COURSE_NO</ColNames>
+      <Predicate>&quot;COURSE_NO&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="377" parent="162" name="SECT_SECTION_NO_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>SECTION_NO</ColNames>
+      <Predicate>&quot;SECTION_NO&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="378" parent="162" name="SECT_INSTRUCTOR_ID_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>INSTRUCTOR_ID</ColNames>
+      <Predicate>&quot;INSTRUCTOR_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="379" parent="162" name="SECT_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="380" parent="162" name="SECT_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="381" parent="162" name="SECT_MODIFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="382" parent="162" name="SECT_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="383" parent="163" name="STUDENT_ID">
+      <Position>1</Position>
+      <Comment>The unique ID for a student.</Comment>
+      <DataType>NUMBER(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="384" parent="163" name="SALUTATION">
+      <Position>2</Position>
+      <Comment>The student&apos;s title (Ms., Mr., Dr., etc.).</Comment>
+      <DataType>VARCHAR2(5)|0</DataType>
+    </column>
+    <column id="385" parent="163" name="FIRST_NAME">
+      <Position>3</Position>
+      <Comment>This student&apos;s first name.</Comment>
+      <DataType>VARCHAR2(25)|0</DataType>
+    </column>
+    <column id="386" parent="163" name="LAST_NAME">
+      <Position>4</Position>
+      <Comment>This student&apos;s last name.</Comment>
+      <DataType>VARCHAR2(25)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="387" parent="163" name="STREET_ADDRESS">
+      <Position>5</Position>
+      <Comment>The student&apos;s street address.</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="388" parent="163" name="ZIP">
+      <Position>6</Position>
+      <Comment>The postal zip code for this student.</Comment>
+      <DataType>VARCHAR2(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="389" parent="163" name="PHONE">
+      <Position>7</Position>
+      <Comment>The phone number for this student including area code.</Comment>
+      <DataType>VARCHAR2(15)|0</DataType>
+    </column>
+    <column id="390" parent="163" name="EMPLOYER">
+      <Position>8</Position>
+      <Comment>The name of the company where this student is employed.</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="391" parent="163" name="REGISTRATION_DATE">
+      <Position>9</Position>
+      <Comment>The date this student registered in the program.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="392" parent="163" name="CREATED_BY">
+      <Position>10</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="393" parent="163" name="CREATED_DATE">
+      <Position>11</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="394" parent="163" name="MODIFIED_BY">
+      <Position>12</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="395" parent="163" name="MODIFIED_DATE">
+      <Position>13</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="396" parent="163" name="STU_PK">
+      <ObjectId>346460</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STUDENT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="397" parent="163" name="STU_ZIP_FK_I">
+      <ObjectId>346451</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:24</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ZIP</ColNames>
+    </index>
+    <key id="398" parent="163" name="STU_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>STUDENT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>STU_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="399" parent="163" name="STU_ZIP_FK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>ZIP</ColNames>
+      <RefSchemaName>CS2550TYLERJACOX</RefSchemaName>
+      <RefTableName>ZIPCODE</RefTableName>
+      <RefKeyName>ZIP_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="400" parent="163" name="STU_STUDENT_ID_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>STUDENT_ID</ColNames>
+      <Predicate>&quot;STUDENT_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="401" parent="163" name="STU_LAST_NAME_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>LAST_NAME</ColNames>
+      <Predicate>&quot;LAST_NAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="402" parent="163" name="STU_ZIP_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>ZIP</ColNames>
+      <Predicate>&quot;ZIP&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="403" parent="163" name="STU_REGISTRATION_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>REGISTRATION_DATE</ColNames>
+      <Predicate>&quot;REGISTRATION_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="404" parent="163" name="STU_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="405" parent="163" name="STU_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="406" parent="163" name="STU_MODIFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="407" parent="163" name="STU_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="408" parent="164" name="ZIP">
+      <Position>1</Position>
+      <Comment>The zip code number, unique for a city and state.</Comment>
+      <DataType>VARCHAR2(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="409" parent="164" name="CITY">
+      <Position>2</Position>
+      <Comment>The city name for this zip code.</Comment>
+      <DataType>VARCHAR2(25)|0</DataType>
+    </column>
+    <column id="410" parent="164" name="STATE">
+      <Position>3</Position>
+      <Comment>The postal abbreviation for the US state.</Comment>
+      <DataType>VARCHAR2(2)|0</DataType>
+    </column>
+    <column id="411" parent="164" name="CREATED_BY">
+      <Position>4</Position>
+      <Comment>Audit column - indicates user who inserted data.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="412" parent="164" name="CREATED_DATE">
+      <Position>5</Position>
+      <Comment>Audit column - indicates date of insert.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="413" parent="164" name="MODIFIED_BY">
+      <Position>6</Position>
+      <Comment>Audit column - indicates who made last update.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="414" parent="164" name="MODIFIED_DATE">
+      <Position>7</Position>
+      <Comment>Audit column - date of last update.</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="415" parent="164" name="ZIP_PK">
+      <ObjectId>346461</ObjectId>
+      <CreatedTimestamp>2017-09-06.14:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ZIP</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="416" parent="164" name="ZIP_PK">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>ZIP</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ZIP_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="417" parent="164" name="ZIP_ZIP_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>ZIP</ColNames>
+      <Predicate>&quot;ZIP&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="418" parent="164" name="ZIP_CREATED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_BY</ColNames>
+      <Predicate>&quot;CREATED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="419" parent="164" name="ZIP_CREATED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>CREATED_DATE</ColNames>
+      <Predicate>&quot;CREATED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="420" parent="164" name="ZIP_MODIFIED_BY_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_BY</ColNames>
+      <Predicate>&quot;MODIFIED_BY&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="421" parent="164" name="ZIP_MODIFIED_DATE_NNULL">
+      <ModifiedTimestamp>2017-09-06.14:51:31</ModifiedTimestamp>
+      <ColNames>MODIFIED_DATE</ColNames>
+      <Predicate>&quot;MODIFIED_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+  </database-model>
+</dataSource>
